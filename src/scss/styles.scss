@@ -1,0 +1,53 @@
+@import "_variables";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: inherit;
+}
+
+header {
+  box-sizing: border-box;
+  width: 600px;
+  height: 100vh;
+  position: fixed;
+  padding-left: 60px;
+  padding-right: 150px;
+  background-color: white;
+  color: $another;
+  h1 {
+    font-size: 75px;
+  }
+  a {
+    color: $anchor;
+    margin-right: 10px;
+  }
+}
+
+main {
+  height: auto;
+  margin-left: 600px;
+  background: $another;
+  color: white;
+  section {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 550px;
+    place-content: center;
+    box-shadow: 0px 5px black inset;
+  }
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    h4 {
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  }
+  img {
+    box-shadow: 0px 5px 10px black;
+  }
+}
